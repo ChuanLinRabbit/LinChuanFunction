@@ -2,15 +2,15 @@
   "name": "lin-chuan-function",
   "version": "0.0.1",
   "description": "usually function",
-  "main": "./core/lcf.js",
-  "module": "./core/lcf.esm.js",
-  "types": "./core/types/lcf.d.ts",
+  "main": "./core/index.js",
+  "module": "./core/index.esm.js",
+  "types": "./core/types/index.d.ts",
   "files": [
     "core"
   ],
   "scripts": {
     "dev": "rollup -w -c",
-    "build:tsc": "npx -p typescript tsc src/index.js --declaration --allowJs --emitDeclarationOnly --outDir core/types",
+    "build:tsc": "npx -p typescript tsc src/index.js --declaration --allowJs --emitDeclarationOnly --outDir core",
     "build": "rollup -c && npm run build:tsc"
   },
   "repository": {

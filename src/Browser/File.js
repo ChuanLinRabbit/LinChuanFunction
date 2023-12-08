@@ -4,7 +4,7 @@
  * @param multiple
  * @return {Promise<[File]>}
  */
-export function chooseFile(acceptType = '', multiple) {
+export function chooseFile(acceptType = '', multiple = false) {
     return new Promise((resolve) => {
         let input = document.createElement("input")
         input.type = 'file'

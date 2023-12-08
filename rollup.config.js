@@ -12,15 +12,15 @@ export default [
         output: [{
             dir: 'core',
             format: 'cjs',
-            entryFileNames: 'LCF.cjs.js',
+            entryFileNames: 'index.cjs.js',
         },{
             dir: 'core',
             format: 'esm',
-            entryFileNames: 'LCF.esm.js',
+            entryFileNames: 'index.esm.js',
         },{
             dir: 'core',
             format: 'umd',
-            entryFileNames: 'LCF.js',
+            entryFileNames: 'index.js',
             name: 'LCF'
         }],
         // plugins: [resolve(), commonjs(), typescript(), terser(), cleanup()],
